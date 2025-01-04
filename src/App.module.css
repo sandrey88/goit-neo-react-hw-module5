@@ -1,0 +1,19 @@
+.app {
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr);
+  grid-gap: 16px;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1248px;
+  margin: 0 auto;
+  padding: 24px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  max-height: 64px;
+  margin-top: 16px;
+}
