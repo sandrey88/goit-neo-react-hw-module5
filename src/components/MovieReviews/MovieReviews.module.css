@@ -1,0 +1,27 @@
+.reviewsList {
+  padding: 20px;
+  list-style: none;
+}
+
+.reviewItem {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.author {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.content {
+  color: #666;
+  line-height: 1.6;
+}
+
+.error, .message {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}

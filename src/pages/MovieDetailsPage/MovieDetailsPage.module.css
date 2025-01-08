@@ -1,0 +1,79 @@
+.container {
+  padding: 20px;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.backLink:hover {
+  color: #ff6b08;
+}
+
+.movieInfo {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.poster {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.details h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.details h3 {
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+.details p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.additional {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.additionalList {
+  list-style: none;
+  padding: 0;
+}
+
+.additionalList li {
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.link:hover {
+  color: #ff6b08;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
