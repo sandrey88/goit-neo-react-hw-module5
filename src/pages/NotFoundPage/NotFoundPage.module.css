@@ -9,18 +9,18 @@
 
 .title {
   font-size: 120px;
-  color: #ff6b08;
+  color: var(--primary-color);
   margin: 0;
 }
 
 .text {
   font-size: 24px;
-  color: #333;
+  color: var(--text-color);
   margin: 20px 0;
 }
 
 .link {
-  color: #ff6b08;
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 18px;
 }

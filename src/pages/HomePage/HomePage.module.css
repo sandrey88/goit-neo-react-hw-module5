@@ -4,12 +4,12 @@
 
 .title {
   text-align: center;
-  color: #333;
+  color: var(--text-color);
   margin-bottom: 20px;
 }
 
 .error {
-  color: red;
+  color: #ff4444;
   text-align: center;
   padding: 20px;
   font-size: 18px;

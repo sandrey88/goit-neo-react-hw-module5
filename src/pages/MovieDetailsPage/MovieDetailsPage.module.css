@@ -5,19 +5,24 @@
 .backLink {
   display: inline-block;
   margin-bottom: 20px;
-  color: #333;
+  color: var(--text-color);
   text-decoration: none;
   font-size: 16px;
+  transition: color 0.3s ease;
 }
 
 .backLink:hover {
-  color: #ff6b08;
+  color: var(--primary-color);
 }
 
 .movieInfo {
   display: flex;
   gap: 30px;
   margin-bottom: 30px;
+  background-color: var(--secondary-background);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .poster {
@@ -33,23 +38,23 @@
 
 .details h2 {
   margin-bottom: 20px;
-  color: #333;
+  color: var(--text-color);
 }
 
 .details h3 {
   margin: 20px 0 10px;
-  color: #333;
+  color: var(--text-color);
 }
 
 .details p {
-  color: #666;
+  color: var(--text-color);
   line-height: 1.6;
 }
 
 .additional {
   margin-top: 30px;
   padding-top: 20px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--secondary-background);
 }
 
 .additionalList {
@@ -62,17 +67,20 @@
 }
 
 .link {
-  color: #333;
+  color: var(--text-color);
   text-decoration: none;
   font-size: 16px;
+  text-decoration: underline;
 }
 
-.link:hover {
-  color: #ff6b08;
+.link:hover,
+.link:focus {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 .error {
-  color: red;
+  color: #ff4444;
   text-align: center;
   padding: 20px;
   font-size: 18px;

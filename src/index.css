@@ -1,4 +1,9 @@
 :root {
+  --primary-color: #ff6b08;
+  --text-color: #e1e1e1;
+  --background-color: #1a1a1a;
+  --secondary-background: #2a2a2a;
+  --hover-color: #ff8533;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -12,10 +17,21 @@
 body {
   margin: 0;
   min-width: 320px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 #root {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+p {
+  margin: 0;
 }

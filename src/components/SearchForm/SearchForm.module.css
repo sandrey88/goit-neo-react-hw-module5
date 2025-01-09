@@ -8,15 +8,22 @@
 .input {
   padding: 8px 16px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--secondary-background);
   border-radius: 4px;
   width: 300px;
+  background-color: var(--secondary-background);
+  color: var(--text-color);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary-color);
 }
 
 .button {
   padding: 8px 16px;
   font-size: 16px;
-  background-color: #ff6b08;
+  background-color: var(--primary-color);
   color: white;
   border: none;
   border-radius: 4px;
@@ -25,5 +32,5 @@
 }
 
 .button:hover {
-  background-color: #e65100;
+  background-color: var(--hover-color);
 }

@@ -3,7 +3,7 @@
 }
 
 .error {
-  color: red;
+  color: var(--text-color);
   text-align: center;
   padding: 20px;
   font-size: 18px;
